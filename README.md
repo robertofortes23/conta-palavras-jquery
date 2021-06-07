@@ -6,7 +6,7 @@
 
 ## Passos a seguir
 
-> 1. Contando as palavras da frase e atualizando o seu contador
+1. Contando as palavras da frase e atualizando o seu contador
 2. Contando através de eventos
 3. Implementando a lógica de Game Over
 4. Criando o botão reiniciar
