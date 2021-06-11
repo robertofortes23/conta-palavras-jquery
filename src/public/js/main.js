@@ -1,6 +1,7 @@
 var frase = $(".frase").text();
 var numPalavras = frase.split(" ").length;
 var tamanhoFrase = $("#tamanho-frase");
+var tempoInicial = $("#tempo-digitacao").text();
 tamanhoFrase.text(numPalavras);
 
 var campo = $(".campo-digitacao");
@@ -25,3 +26,12 @@ campo.one("focus", function () {
         }
     }, 1000);
 });
+
+$("#botao-reiniciar").click(function(){
+    campo.attr("disabled", false);
+    //inicializando os campos
+    campo.val("");
+    $("#contador-palavras").text("0");
+    $("#contador-caracteres").text("0");
+    $("#tempo-digitacao").text(tempoInicial);
+    });
