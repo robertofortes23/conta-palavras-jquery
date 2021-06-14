@@ -9,9 +9,17 @@
 }
 
 .campo-desativado {
-    background-color: black;
+    background-color: gray;
 }
 
 .icones {
     vertical-align: middle;
-   }
+}
+
+.borda-verde {
+    border: 3px solid green;
+}
+
+.borda-vermelha {
+    border: 3px solid red;
+}
