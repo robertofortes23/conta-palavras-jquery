@@ -74,3 +74,16 @@ function inicializaMarcadores() {
            }
     });
    }
+
+   function inserePlacar() {
+	var corpoTabela = $(".pĺacar").find("tbody");
+	var usuario = "Hudson";
+	var numPalavras = $("#contador-palavras").text();
+
+	var linha = "<tr>" +
+					"<td>" + usuario + "</td>" + 
+					"<td>" + numPalavras + "</td>" + 
+				"</tr>";	
+
+	corpoTabela.append(linha);
+}
