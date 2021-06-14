@@ -42,7 +42,6 @@ function inicializaCronometro() {
     });
 }
 
-$("#botao-reiniciar").click(reiniciaJogo);
 
 function reiniciaJogo() {
     campo.val("");

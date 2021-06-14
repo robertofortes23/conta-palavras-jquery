@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/libs/materialize.min.css">
     <title>Projeto JQuery</title>
@@ -16,12 +17,20 @@
         <p class="frase">Lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua.</p>
-        <ul class="informacoes">
-            <li><span id="tamanho-frase">19</span> palavras</li>
-            <li><span id="tempo-digitacao">10</span> segundos</li>
+        <ul class="informacoes center">
+            <li>
+                <i class="small material-icons icones">description</i>
+                <span id="tamanho-frase">19</span> palavras
+            </li>
+            <li>
+                <i class="small material-icons icones">query_builder</i>
+                <span id="tempo-digitacao">10</span> segundos
+            </li>
         </ul>
         <textarea class="campo-digitacao" rows="8" cols="40"></textarea>
-        <button id="botao-reiniciar">Reiniciar Jogo</button>
+        <a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red">
+            <i class="material-icons">restore</i>
+           </a>
         <ul>
             <li><span id="contador-caracteres">0</span> caracteres</li>
             <li><span id="contador-palavras">0</span> palavras</li>
