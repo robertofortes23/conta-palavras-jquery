@@ -1,4 +1,4 @@
-# Projeto 3° Avaliação JQuery
+# 3° Avaliação projeto em JQuery 🎮👾👨‍💻💥
 
 ## 🎮 Introdução ao jogo conta palavras 🎮
 
