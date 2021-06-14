@@ -42,7 +42,10 @@ function inicializaCronometro() {
     });
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c2204ea2f9a4d485c97244333342c452d3984797
 function reiniciaJogo() {
     campo.val("");
     campo.attr("disabled", false);
