@@ -1,10 +1,10 @@
-# Projeto Final JQuery
+# 3° Avaliação projeto em JQuery 🎮👾👨‍💻💥
 
-## Introdução
+## 🎮 Introdução ao jogo conta palavras 🎮
 
 > Exercício da matéria de PROGRAMAÇÃO E DESIGN PARA WEB. O trabalho consiste em desenvolver uma aplicação simples usando biblioteca JQuery.
 
-## Passos a seguir
+## 👾 Passos seguidos no projeto 👾
 
 1. Contando as palavras da frase e atualizando o seu contador
 2. Contando através de eventos
